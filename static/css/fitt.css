@@ -1,0 +1,113 @@
+  /* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+body {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.navbar  {
+  background-color: rgba(53, 63, 69, .44);
+  height: 40px;
+}
+
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 300;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0,0,0,.1)
+}
+
+.navbar-brand {
+  display: block;
+  background: transparent url('/img/logo_120.png') no-repeat scroll 0 0;
+  width: 60px;
+  height: 60px;
+  -webkit-background-size: 60px 60px;
+  color: transparent;
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  top: 10px;
+
+}
+
+/* 
+ORIGINAL BACKGROUND IMAGE CODE:
+.intro {
+  background: rgba(153,178,191,1);
+  background: -moz-linear-gradient(-45deg, rgba(153,178,191,1) 0%, rgba(126,170,191,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(153,178,191,1)), color-stop(100%, rgba(126,170,191,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(153,178,191,1) 0%, rgba(126,170,191,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(153,178,191,1) 0%, rgba(126,170,191,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(153,178,191,1) 0%, rgba(126,170,191,1) 100%);
+  background: linear-gradient(135deg, rgba(153,178,191,1) 0%, rgba(126,170,191,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99b2bf', endColorstr='#7eaabf', GradientType=1 );
+}*/
+
+
+.intro {
+  background: rgba(153,178,191,1);
+  background-image: url('/img/hi_five_720.png'), -moz-linear-gradient(-45deg, rgba(153,178,191,1) 0%, rgba(126,170,191,1) 100%);
+  background-image: url('/img/hi_five_720.png'), -webkit-gradient(left top, right bottom, color-stop(0%, rgba(153,178,191,1)), color-stop(100%, rgba(126,170,191,1)));
+  background-image: url('/img/hi_five_720.png'), -webkit-linear-gradient(-45deg, rgba(153,178,191,1) 0%, rgba(126,170,191,1) 100%);
+  background-image: url('/img/hi_five_720.png'), -o-linear-gradient(-45deg, rgba(153,178,191,1) 0%, rgba(126,170,191,1) 100%);
+  background-image: url('/img/hi_five_720.png'), -ms-linear-gradient(-45deg, rgba(153,178,191,1) 0%, rgba(126,170,191,1) 100%);
+  background-image: url('/img/hi_five_720.png'), linear-gradient(135deg, rgba(153,178,191,1) 0%, rgba(126,170,191,1) 100%);
+  background-position: middle bottom, left top;
+  background-repeat: no-repeat;
+  -webkit-background-size: 360px 317px, 100% 100%;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99b2bf', endColorstr='#7eaabf', GradientType=1 );
+}
+
+
+section {
+  height: 568px;
+}
+
+#wrap > .container {
+  padding: 60px 15px 0;
+}
+
+.btn-transparent {
+  height: 40px;
+  line-height: 20px;
+  display: block;
+  padding: 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgba(53, 63, 69, .44);
+  color: #fff;
+  font-weight: 400;
+}
+
